@@ -16,12 +16,12 @@ Desafio, modelar e criar um diagrama UML do iPhone, abrangendo suas funcionalida
 classDiagram
   class iPhone {
   }
-  class Phone {
+  class apple.Phone {
     +call()
     +listen()
     +startVoiceMail()
   }
-  class WebBrowser {
+  class apple.WebBrowser {
     +viewPage(String url)
     +addNewTab()
     +updatePage()
@@ -32,7 +32,7 @@ classDiagram
     +pause()
   }
 
-  iPhone --> Phone
-  iPhone --> WebBrowser
+  iPhone --> apple.Phone
+  iPhone --> apple.WebBrowser
   iPhone --> MusicPlayer
 ```
